@@ -1,13 +1,17 @@
+import Picture from "./Picture";
  
-let name="Mukesh";
 function Student(props) {
-  return (
-   <div>
-    {props.sname}
 
-    <p>{props.children}</p>
-    </div>
-  );
+    return (
+        <div>
+            {props.sname}
+
+            <p>{props.children}</p>
+            
+<Picture imagepath="logo192.png"></Picture>
+
+        </div>
+    );
 }
 
 export default Student;

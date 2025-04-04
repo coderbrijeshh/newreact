@@ -1,15 +1,12 @@
 import logo from './logo.svg';
+import EffectTest from './components/EffectTest';
 import './App.css';
-import Counter from './components/Counter';
-import NameForm from './components/NameForm';
-import ToggleMessage from './components/ToggleMessage';
+
 
 function App() {
   return (
     <div className="App">
-     <Counter></Counter>
-     <NameForm></NameForm>
-     <ToggleMessage></ToggleMessage>
+      <EffectTest></EffectTest>
 
     </div>
   );

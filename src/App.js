@@ -1,12 +1,13 @@
-import logo from './logo.svg';
-import EffectTest from './components/EffectTest';
+// import NameForm from './components/SimpleForm';
+
 import './App.css';
+import CalculatorForm from './components/CalculatorForm';
 
 
 function App() {
   return (
     <div className="App">
-      <EffectTest></EffectTest>
+      <CalculatorForm></CalculatorForm>
 
     </div>
   );

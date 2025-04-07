@@ -1,0 +1,54 @@
+.col{
+    background-color: aqua;
+    
+    width: 400px;
+    height: 400px;
+     margin-left: 550px;  
+     margin-top: 100px;  
+     border-radius: 10%;
+
+}
+.col:hover{
+    background-color:aqua;
+    border-color: yellow;
+    box-shadow: 0px 0px 25px yellow;
+}
+.col1{
+
+    width: 300px;
+    height: 30px;
+    margin-top: 50px;
+}
+.col1:hover{
+    background-color: yellow;
+    border-color: blue;
+    box-shadow: 0px 0px 25px blue;
+}
+.col2{
+    width: 300px;
+    height: 30px;
+    margin-top: 50px;
+}
+.col2:hover{
+    background-color: maroon;
+    border-color: darkorange;
+    box-shadow: 0px 0px 25px teal;
+}
+.col3{
+    width: 300px;
+    height: 30px;
+    margin-top: 50px;
+}
+.col3:hover{
+    background-color: hotpink;
+    border-color: chartreuse;
+    box-shadow: 0px 0px 25px chocolate;
+}
+button:hover{
+    background-color: blue;
+    border-color: blue;
+}
+
+
+
+

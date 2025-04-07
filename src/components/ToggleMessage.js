@@ -10,7 +10,7 @@ function ToggleMessage() {
       </button>
       {(() => {
         if (visible) {
-          return <p>Hello, World!</p>;
+          return <p>Welcome to the world of React</p>;
         } else {
           return null;
         }
